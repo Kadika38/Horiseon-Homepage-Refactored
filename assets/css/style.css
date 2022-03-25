@@ -1,13 +1,16 @@
+/*Basic pieces are built here: everything starts with the same padding, margin, and box-sizing*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Adding background color for body*/
 body {
     background-color: #d9dcd6;
 }
 
+/*The header section gets padding, fonts, and colors*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/*"Horiseon" in the top left of the page*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*This is the "seo" span in "Horiseon" that gets a different color*/
 .seo {
     color: #d9dcd6;
 }
 
+/*The next four portions (.header div, ul, li, and a) provide styling to the list of links on the top right of the page within the header*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,10 +52,19 @@ a {
     text-decoration: none;
 }
 
+/*Just for fun, I fixed the list of links in the header so that they would adjust correctly for smaller screen sizes*/
+@media screen and (max-width: 1020px) {
+    .header div {
+        font-size: 17px;
+    }
+}
+
+/*Paragraphs are given a font-size*/
 p {
     font-size: 16px;
 }
 
+/*The image bellow the header needs to cover the whole width of the page, so it is a section instead of an image and is styled here accordingly*/
 .landingBackgroundImg {
     height: 800px;
     width: 100%;
@@ -59,6 +74,7 @@ p {
     background-position: center;
 }
 
+/*defining floats for use in the two sections below the header and the background image*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,6 +85,7 @@ p {
     margin-left: 25px;
 }
 
+/*The left side of the main content, anything within the offerings section gets styled below*/
 .offerings {
     width: 75%;
     display: inline-block;
@@ -93,6 +110,7 @@ p {
     font-size: 36px;
 }
 
+/*The right side of the main content, anything within the benefits section gets styled below*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -120,6 +138,7 @@ p {
     max-width: 150px;
 }
 
+/*The footer gets styled in these two portions*/
 .footer {
     padding: 30px;
     clear: both;
@@ -129,10 +148,4 @@ p {
 
 .footer h2 {
     font-size: 20px;
-}
-
-@media screen and (max-width: 1020px) {
-    .header div {
-        font-size: 17px;
-    }
 }
