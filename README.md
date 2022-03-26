@@ -1,5 +1,6 @@
 Homework 01: Code Refactor
 README
+by David Ryan
 
 According to the README in the homework, this README requires three aspects: "description, screenshot, and link to deployed application"
 
