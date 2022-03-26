@@ -25,7 +25,7 @@ Section 1: Description
 
 Section 2: Screenshot
 
-![Screenshot of Website](assets\images\Screenshot-of-website.jpg)
+![Screenshot of Website](https://github.com/Kadika38/Horiseon-Homepage-Refactored/blob/main/assets/images/Screenshot-of-website.jpg)
 
 
 
