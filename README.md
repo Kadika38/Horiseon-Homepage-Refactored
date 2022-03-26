@@ -25,7 +25,7 @@ Section 1: Description
 
 Section 2: Screenshot
 
-    ![](Screenshot-of-website.jpg)
+    ![Screenshot of Website](Screenshot-of-website.jpg)
 
 
 
