@@ -25,7 +25,7 @@ Section 1: Description
 
 Section 2: Screenshot
 
-    I do not know what we are supposed to be screenshotting or how to add an image to a README.md file.  I will ask our teacher before class on saturday and will change this is changes are required.  For reference, line 119 of the homework's README file says to have a screenshot in this README.
+    ![](Screenshot-of-website.jpg)
 
 
 
